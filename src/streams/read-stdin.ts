@@ -1,5 +1,6 @@
 import * as process from "process";
 
+// Non-flowing mode
 process.stdin
   .on("readable", () => {
     let chunk;
